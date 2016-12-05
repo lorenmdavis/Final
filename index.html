@@ -3,28 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale=1.0>
-<link href="styles.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-<!--Dexter page font-->
-<link href="https://fonts.googleapis.com/css?family=Londrina+Solid|Roboto" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 <title>Seven Potato More Quilts</title>
 </head>
 
 <body>
 
+<div class="homeBody">
+
 <!--Logo-->
 <div class="logoSection">
-    <h1 class="featureTitle">Seven Potato More Quilt Co.</h1>
+  <img class="logoSmall" src="images/spmLogoSmall.png"/>
+  <img class="logoLarge" src="images/spmLogo.png"/>
 </div>
 
 <!--Jumbotron-->
 <div class="jumbotron">
     <div class="jumbotronImg"></div>
-</div>
-
-<div class="jumbotronInfo">
-    <p>Mock Log Cabin</p>
+    <div class="jumbotronLabel">
+      <p>Mock Log Cabin</p>
+    </div>
 </div>
 
 <!--Intro Paragraph-->
@@ -33,41 +33,51 @@
 </div>
 
 <!--Feature Section-->
-<div class="featureWrapper">
+<section class="featureWrapper">
 
-<div class="feature01">
-    <img src="images/mapleThumb.png">
-    <h2 class="featureTitle">Maple Leaves</h2>
-</div>
-
-<div class="feature02">
-    <img src="images/snowflakeThumb.png">
-    <h2 class="featureTitle">Snowflake</h2>
-</div>
-
-<div class="feature03">
-    <img src="images/pumpkinPieThumb.png">
-    <h2 class="featureTitle">Pumpkin Pie</h2>
-</div>
-
-</div>
-
-<!--Navigation-->
-<nav class="nav">
-    <div class="navWrapper">
-        <ul  class="navPatterns" >
-            <li><a href="#">Patterns</a></li>
-            <li><a href="#">Publications</a></li>
-            <li><a href="#">Calendar</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
+  <a href="#">
+    <div class="feature01">
+      <img src="images/mapleThumb.png">
+      <h2 class="featureTitle">Maple Leaves</h2>
     </div>
-</nav>
+  </a>
+
+  <a href="#">
+    <div class="feature02">
+        <img src="images/snowflakeThumb.png">
+        <h2 class="featureTitle">Snowflake</h2>
+    </div>
+  </a>
+
+  <a href="#">
+    <div class="feature03">
+        <img src="images/pumpkinPieThumb.png">
+        <h2 class="featureTitle">Pumpkin Pie</h2>
+    </div>
+  </a>
+
+</section>
+</div><!--End Logo thru feature section-->
+<!--Navigation-->
+
+  <div class="hamburger">
+    <a href="#mobileNav"><img src="images/hamburger.png"></a>
+  </div>
+
+  <nav class="navWrapper" id="mobileNav">
+    <ul class="navPatterns">
+      <li><a href="#">Patterns</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">Calendar</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
 <!--Footer-->
 <footer>
   <div class="footerText">
-    Footer Text
+    	&copy;	2016 Seven Potato More
   </div>
 </footer>
 
